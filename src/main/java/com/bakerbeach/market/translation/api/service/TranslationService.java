@@ -15,9 +15,8 @@ public interface TranslationService {
 	I18NMessage getReverseUrlTranslation(List<String> tag, String text, Locale locale)
 			throws TranslationServiceException;
 
-	// I18NMessage getReverseTranslation(String tag, String text, Locale locale)
-	// throws TranslationServiceException;
-	// String getReverseUrlTranslation(String tag, String text, Locale locale)
-	// throws TranslationServiceException;
+	void clearCache();
+
+	void clearCache(String tag, String type, String code);
 
 }

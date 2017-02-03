@@ -10,7 +10,7 @@
 	<artifactId>market-translation-api</artifactId>
 	<name>market-translation-api</name>
 	<packaging>jar</packaging>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<properties>
 	</properties>
 	<dependencies>

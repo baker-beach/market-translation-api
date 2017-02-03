@@ -16,6 +16,8 @@ public interface I18NMessage {
 
 	Date getLastUpdate();
 
+	void setLastUpdate(Date lastUpdate);
+
 	String getTag();
 
 	String getType();

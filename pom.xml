@@ -10,14 +10,14 @@
 	<artifactId>market-translation-api</artifactId>
 	<name>market-translation-api</name>
 	<packaging>jar</packaging>
-	<version>1.0.1</version>
+	<version>1.1.0</version>
 	<properties>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.bakerbeach.market</groupId>
 			<artifactId>market-commons</artifactId>
-			<version>0.9.10</version>
+			<version>[1.1.0,1.2.0)</version>
 		</dependency>
 	</dependencies>
 	<build>

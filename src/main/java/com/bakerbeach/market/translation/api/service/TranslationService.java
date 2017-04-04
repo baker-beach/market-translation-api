@@ -19,4 +19,6 @@ public interface TranslationService {
 
 	void clearCache(String tag, String type, String code);
 
+	void save(I18NMessage message);
+
 }

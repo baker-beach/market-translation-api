@@ -2,6 +2,7 @@ package com.bakerbeach.market.translation.api.model;
 
 import java.util.Date;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Set;
 
 public interface I18NMessage {
@@ -21,5 +22,7 @@ public interface I18NMessage {
 	String getTag();
 
 	String getType();
+
+	Map<String, String> getMessages();
 
 }

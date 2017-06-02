@@ -15,10 +15,15 @@ public interface TranslationService {
 	I18NMessage getReverseUrlTranslation(List<String> tag, String text, Locale locale)
 			throws TranslationServiceException;
 
+	I18NMessage loadReverseTranslation(List<String> tags, String type, String text, Locale locale)
+			throws TranslationServiceException;
+
 	void clearCache();
 
 	void clearCache(String tag, String type, String code);
 
 	void save(I18NMessage message);
+
+	I18NMessage loadMessage(String tag, String type, String code);
 
 }

@@ -24,5 +24,5 @@ public interface I18NMessage {
 	String getType();
 
 	Map<String, String> getMessages();
-
+	
 }
